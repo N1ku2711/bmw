@@ -1,0 +1,107 @@
+.title {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.logout {
+	position: fixed;
+	top: 15px;
+	left: 15px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	height: 85vh;
+	max-width: 800px;
+	border-radius: 5px;
+	padding: 0px;
+	margin: 15px auto;
+	justify-content: flex-end;
+	background-color: #8CBFE970;
+	box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 10px;
+}
+
+.messages-container {
+	padding: 10px;
+	overflow: auto;
+	scroll-behavior: smooth;
+}
+
+.messages-list {
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+}
+
+.message {
+	display: flex;
+}
+
+.own {
+	justify-content: flex-end;
+}
+
+.message-text {
+	padding: 15px;
+	max-width: 50%;
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 15px !important; 
+	margin: 15px 0;
+	box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 5px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.message-avatar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	border: 2px solid black;
+	border-radius: 50px;
+	font-weight: bold;
+	font-size: 20px;
+	align-self: flex-end;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	font-family: sans-serif;
+}
+
+.message-avatar p {
+	margin: 0;
+	color: rgba(0,0,0,0.8);
+}
+
+.input-group {
+	padding: 10px;
+}
+
+.btn-info {
+	box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 5px;
+}
+
+.form-control {
+	box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 5px;
+}
+
+.disabled {
+	opacity: 0.5;
+}
+
+.messages-container::-webkit-scrollbar {
+    width: 0.3em;
+}
+ 
+.messages-container::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+}
+ 
+.messages-container::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.25);
+  outline: 1px solid slategrey;
+}
+
+
